@@ -30,7 +30,7 @@ export default function TextFlip() {
   }, [words]);
 
   return (
-    <div className="box-content flex gap-4 text-3xl font-semibold">
+    <div className="box-content flex gap-4 text-xl md:text-3xl font-semibold">
       <p className="text-foreground">I am a</p>
       <div
         ref={tallestRef}

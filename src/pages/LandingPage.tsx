@@ -73,12 +73,12 @@ const LandingPage = () => {
           <WaveReveal
             text="It's me Chiranjibi"
             className="text-foreground"
-            letterClassName="text-3xl md:text-5xl "
+            letterClassName="text-2xl  md:text-5xl "
           />
           <TextFlip />
-          <SocialMediaIconList size={30} className="mt-7" />
+          <SocialMediaIconList size={30} className="mt-5 md:mt-7" />
 
-          <div className="lg:text-xl md:text-lg text-normal">
+          <div className="lg:text-xl md:text-lg text-sm">
             <ShiningButton
               icon={<Download size={24} className="text-white" />}
               label="Download my Resume"
@@ -86,11 +86,11 @@ const LandingPage = () => {
             />
           </div>
         </div>
-        <div className="w-full md:w-1/2 md:mt-16 p-10">
+        <div className="w-full md:w-1/2 md:mt-16 pb-8">
           <img
             src={HeroImg}
             alt="hero-img"
-            className="w-full h-full rounded-3xl"
+            className="w-full h-full rounded-3xl mb-5"
           />
         </div>
       </div>

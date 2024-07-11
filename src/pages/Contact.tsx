@@ -32,7 +32,7 @@ const Contact = () => {
         className="flex flex-col md:flex-row justify-center items-center gap-10 md:w-1/3 w-full md:px-10"
         variants={itemVariants}
       >
-        <div className="flex flex-row md:flex-col gap-6  text-foreground md:text-lg text-sm">
+        <div className="flex flex-col md:flex-col gap-6  text-foreground md:text-lg text-base">
           <motion.div
             className="flex flex-col items-center gap-2 justify-center"
             variants={itemVariants}
@@ -41,7 +41,7 @@ const Contact = () => {
               <Map size={24} className="text-white" />
             </span>
             <div className="flex flex-col items-center justify-center text-center">
-              <h1 className="text-lg font-bold  ">Address:</h1>
+              <h1 className="text-lg font-bold md:text-2xl ">Address:</h1>
               <div className="flex flex-col gap-1">
                 <p>Lakeside,Pokhara</p>
                 <p>NewYork,USA</p>
@@ -56,7 +56,7 @@ const Contact = () => {
               <Mail size={24} className="text-white" />
             </span>
             <div className="flex flex-col items-center justify-center text-center ">
-              <h1 className="text-lg font-bold ">Email:</h1>
+              <p className="text-lg font-bold md:text-2xl ">Email:</p>
               <div className="flex flex-col gap-2">
                 <p>ranachiranjibi@gmail.com</p>
                 <p>tonysinghdrs@gmail.com</p>
@@ -71,7 +71,7 @@ const Contact = () => {
               <PhoneCall size={24} className="text-white" />
             </span>
             <div className="flex flex-col items-center justify-center text-center ">
-              <h1 className="text-lg font-bold">Phone:</h1>
+              <h1 className="text-lg font-bold md:text-2xl">Phone:</h1>
               <div className="flex flex-col gap-2">
                 <p>+9779826163333</p>
                 <p>+9779846645345</p>

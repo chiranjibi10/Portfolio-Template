@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 const Footer = () => {
   return (
     <div className="flex justify-center items-center p-10">
-      <h1 className="font-bold text-xl text-foreground ">
+      <h1 className="font-bold text-lg md:text-xl text-foreground ">
         Made with{" "}
         <motion.span
           animate={{ scale: [1, 1.4, 1] }}
