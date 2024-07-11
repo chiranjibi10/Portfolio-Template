@@ -56,7 +56,7 @@ const AboutMe = ({ scrollToContact: scrollToContact }: AboutMeProps) => {
 
   return (
     <motion.div
-      className="flex flex-col md:gap-10 md:flex-row justify-center items-center min-h-screen min-w-fit p-5 md:p-10 mx-5 md:mx-10 rounded-3xl mt-5 md:mt-16 "
+      className="flex flex-col md:gap-10 md:flex-row justify-center items-center min-h-screen min-w-fit p-5 md:p-10 mx-5 md:mx-10 rounded-3xl mt-16 md:mt-16 "
       initial="hidden"
       animate="visible"
       variants={containerVariants}
@@ -105,7 +105,7 @@ const AboutMe = ({ scrollToContact: scrollToContact }: AboutMeProps) => {
         className="flex flex-col items-center md:items-center justify-center gap-4 w-full md:w-1/2 font-extrabold font-mono text-center md:text-left"
         variants={itemVariants}
       >
-        <DoubleUnderline className="text-bold mt-5 lg:text-5xl text-4xl text-foreground md: ">
+        <DoubleUnderline className="text-bold mt-12 lg:text-5xl text-4xl text-foreground  ">
           About Me
         </DoubleUnderline>
 

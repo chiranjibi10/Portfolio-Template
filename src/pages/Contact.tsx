@@ -32,7 +32,7 @@ const Contact = () => {
         className="flex flex-col md:flex-row justify-center items-center gap-10 md:w-1/3 w-full md:px-10"
         variants={itemVariants}
       >
-        <div className="flex flex-row md:flex-col gap-6 p-7 text-foreground md:text-lg text-sm">
+        <div className="flex flex-row md:flex-col gap-6  text-foreground md:text-lg text-sm">
           <motion.div
             className="flex flex-col items-center gap-2 justify-center"
             variants={itemVariants}
@@ -96,18 +96,18 @@ const Contact = () => {
         </svg>
       </motion.div>
       <motion.div
-        className="flex flex-col justify-start md:w-1/2 w-full mt-6 md:mt-0 "
+        className="flex flex-col justify-start md:w-1/2 w-full p-6 mt-6 md:mt-0 "
         variants={itemVariants}
       >
         <h1 className="font-bold text-3xl text-foreground mb-4 text-center md:text-start tracking-wide">
           Contact Me
         </h1>
-        <p className="text-foreground/60 text-base md:text-lg lg:text-lg font-mono mb-6">
+        <p className="text-foreground/60 text-sm md:text-lg  font-mono mb-6">
           If you have any work for me or any types of queries related to my
           work, you can send me a message from here. It's my pleasure to help
           you.
         </p>
-        <form className="flex flex-col gap-3">
+        <form className="flex flex-col gap-3 w-full">
           <input
             type="text"
             placeholder="Name"

@@ -86,7 +86,7 @@ const LandingPage = () => {
             />
           </div>
         </div>
-        <div className="w-full md:w-1/2 md:mt-16">
+        <div className="w-full md:w-1/2 md:mt-16 p-10">
           <img
             src={HeroImg}
             alt="hero-img"
