@@ -73,7 +73,7 @@ const LandingPage = () => {
           <WaveReveal
             text="It's me Chiranjibi"
             className="text-foreground"
-            letterClassName="text-2xl  md:text-5xl "
+            letterClassName="text-lg  md:text-5xl "
           />
           <TextFlip />
           <SocialMediaIconList size={30} className="mt-5 md:mt-7" />
